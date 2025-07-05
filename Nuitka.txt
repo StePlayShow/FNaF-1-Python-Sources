@@ -1,0 +1,5 @@
+nuitka --msvc=latest --onefile --standalone --include-package-data=data --windows-icon-from-ico=data/sprites/icon.ico --windows-uac-admin --windows-console-mode=disable --product-name=FNaF_Python --product-version=1.0.0 --file-version=1.0.0 Main.py
+
+nuitka --msvc=latest --onefile --standalone --include-package-data=data --windows-icon-from-ico=data/sprites/icon.ico --windows-console-mode=disable --product-name=FNaF_Python --product-version=1.1.0 --file-version=1.1.0 FNaF_1_made_with_Python.py
+
+python -m nuitka --msvc=latest --standalone --onefile --include-package-data=data --windows-icon-from-ico=data/sprites/icon.ico --windows-console-mode=disable --product-name=FNaF_Python --product-version=1.1.0 --file-version=1.1.0 FNaF_1_made_with_Python.py
